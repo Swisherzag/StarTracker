@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarTracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>StarTracker</h1>
+    </header>
+    <main>
+        <section class="star-chart">
+            <canvas id="starChart"></canvas>
+        </section>
+        <section class="star-details">
+            <h2>Star Details</h2>
+            <div class="star-info">
+                <label for="star-name">Star Name:</label>
+                <span id="star-name">-</span>
+            </div>
+            <div class="star-info">
+                <label for="star-magnitude">Magnitude:</label>
+                <span id="star-magnitude">-</span>
+            </div>
+            <div class="star-info">
+                <label for="star-distance">Distance (light-years):</label>
+                <span id="star-distance">-</span>
+            </div>
+            <div class="star-info">
+                <label for="star-spectral-type">Spectral Type:</label>
+                <span id="star-spectral-type">-</span>
+            </div>
+            <div class="star-info">
+                <label for="star-color">Color:</label>
+                <span id="star-color">-</span>
+            </div>
+            <div class="star-info">
+                <label for="star-description">Description:</label>
+                <p id="star-description">-</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 StarTracker</p>
+    </footer>
+    <script src="StarChart.js"></script>
+</body>
+</html>
+
